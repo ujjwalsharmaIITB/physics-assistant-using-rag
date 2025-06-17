@@ -11,7 +11,7 @@ def chat(question, history):
 
 gr.ChatInterface(chat, title="⚛️ Physics Assistant",
                         description="Ask questions about physics based on the Feynman Lectures.",
-                        examples=["What is the principle of least action?",
+                        examples=["What are the laws of motion?",
                                   "Explain the concept of entropy in thermodynamics.",
                                   "How does quantum mechanics differ from classical mechanics?"],
                         theme="default", type="messages").queue().launch()
